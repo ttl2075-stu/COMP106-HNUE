@@ -15,9 +15,10 @@ def doixung(a):
             break
     return kt_doixung
 
+#Chương trình chính
 n = int(input())
 m = int(input())
-if kiemtra(n,m):
+if kiemtra(n,m):    #Kiểm tra n và m có thuộc khoảng đề bài hay không?
     dem=0
     for j in range(n,m+1):
         if doixung(j):
